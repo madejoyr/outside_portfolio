@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+
+#research{
+	padding: 50px;
+}
+
+#research .page_name{
+	text-align: center;
+}
+
+#research .nav2{
+	list-style: none;
+	text-align: center;
+}
+
+#research .nav2 li{
+	display: inline-block;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce){
+	.skip a{
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+  html{
+      scroll-behavior: auto; 
+  }
+}
