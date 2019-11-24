@@ -22,10 +22,11 @@ html {
 .header {
   text-align: center;
   font-size: 30px;
+  font-family: 'Francois One', sans-serif;
 }
 
-#research {
-  /*padding: 50px;*/
+#research main{
+  font-family: helvetica;
 }
 
 #research .page_name {
