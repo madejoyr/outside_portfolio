@@ -8,6 +8,17 @@
     <title>Research</title>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+    	function myFunction() {
+  		var x = document.getElementById("myLinks");
+  		if (x.style.display === "block") {
+   		 x.style.display = "none";
+  		} else {
+    	x.style.display = "block";
+  		}
+	}
+	</script>
+
 </head>
 
 
@@ -18,7 +29,25 @@
     <main>
     <header>
     	<nav>
+    		
+		<!-- Top Navigation Menu -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="topnav">
+ 		 <a href="#home" class="active">Logo</a>
+ 		 <!-- Navigation links (hidden by default) -->
+  		<div id="myLinks">
+    		<a href="index.html">About</a>
+   			<a href="professional.html">Professional</a>
+    		<a href="fun.html">Fun</a>
+    		<a href="contact.html">Contact</a>
+  		</div>
+  		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+  		</a>
+		</div>
     	</nav>
+
     </header>
 
     
@@ -64,18 +93,20 @@
 				</ul>
 				
 				<h3>Watch our Video:</h3>
-					<a href='https://youtu.be/qF22RLfytUI'>How Tandam Makes Teamwork Easier</a>
+					<br><a href='https://youtu.be/qF22RLfytUI'>How Tandam Makes Teamwork Easier</a></br>
 
 				<h3>Try Our Demo Site:</h3>
-					<p>go to <a href='https://www.teamsintandem.com/welcome'>www.teamsintandem.com</a> and click "Try Demo"</p>
+					<br><p>go to <a href='https://www.teamsintandem.com/welcome'>www.teamsintandem.com</a> and click "Try Demo"</p></br>
 
 				<h3>More information about Tandem (most recent first)</h3>
+					<br>
 					<ul>
 						<li><a href ='https://ai.umich.edu/blog/preparing-new-features-as-tandem-expands-to-two-new-courses/'>Preparing New Features as Tandem Expands to Two New Courses</a></li>
 						<li><a href ='https://ai.umich.edu/blog/small-data-big-goals-how-weve-approached-analyzing-students-experiences-in-the-first-semester-of-tandem/'>Small Data, Big Goals: How We’ve Approached Analyzing Students’ Experiences in the First Semester of Tandem</a></li>
 						<li><a href='https://ai.umich.edu/blog/the-3-things-to-know-about-tandem/'>The 3 Things to Know about Tandem</a></li>
 						<li><a href='https://ai.umich.edu/blog/why-we-proposed-a-teamwork-tool-to-the-academic-innovation-team/'>Why We Proposed a Teamwork Tool to the Academic Innovation Team</a></li>
 					</ul>
+				</br>
 			</div>
      	
 			<div class = 'current'>
