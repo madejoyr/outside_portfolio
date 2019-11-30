@@ -39,6 +39,28 @@ html {
   color: white;
 }
 
+#professional a{
+  color: #FABC09;
+}
+
+#professional .button {
+  background-color: #FABC09;
+  color:#374353;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#professional .page_links{
+  align-self: center;
+  justify-self: center;
+}
+
 #professional .page_name {
   text-align: center;
   font-size: 35px;
@@ -62,9 +84,7 @@ html {
   text-align: center;
   font-size: 35px;
   /*color: #374353;*/
-  color: white;
-  
-  
+  color: white;  
 }
 
 #research .nav2 {
@@ -238,7 +258,7 @@ html {
 /* fun page */
 
 
-body {
+#fun body {
   background-color: white;
 
 
