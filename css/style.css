@@ -25,10 +25,13 @@ html {
   font-size: 50px;
   font-family: 'Francois One', sans-serif;
   padding: 10px;
+  background-color: #FABC09;
+  color:#374353;
 }
 
 #research main{
   font-family: helvetica;
+  /*background-color: #faebd7;*/
 }
 
 #research #main{
@@ -38,15 +41,24 @@ html {
 #research .page_name {
   text-align: center;
   font-size: 35px;
+  color: #374353;
+  
+  
 }
 
 #research .nav2 {
   list-style: none;
   text-align: center;
+
 }
 
 #research .nav2 li {
   display: inline-block;
+  color: #374353;
+}
+
+#research .nav2 a {
+  color: #E1A300;
 }
 
 #research img{
@@ -57,11 +69,14 @@ html {
 
 #research h2{
   font-size: 25px;
-  text-align: center;
+  /*text-align: center;*/
+  color: #374353;
+  font-style: italic;
 }
 
 #research h3{
   font-size: 16px;
+  color: #0CA587;
 }
 
 #research .inside_list{
@@ -70,6 +85,10 @@ html {
 
 #research #main{
   line-height: 1.4em;
+}
+
+#research #main a{
+  color: #E1A300;
 }
 
 #teaching {
@@ -132,7 +151,7 @@ html {
 /* Style the hamburger menu */
 
 .topnav a.icon {
-  background: black;
+  background: #374353;
   display: block;
   position: absolute;
   right: 0;
@@ -145,16 +164,21 @@ html {
 }
 /* Add a grey background color on mouse-over */
 
+.topnav a{
+  background-color:#374353;
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
 
+
 /* Style the active link (or home/logo) */
 
 .active {
-  background-color: #4CAF50;
+  background-color: #25BEA0;
   color: white;
 }
 
