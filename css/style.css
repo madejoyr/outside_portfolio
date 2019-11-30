@@ -127,7 +127,13 @@ html {
 }
 
 
+#r{
+  display: none;
+}
 
+#t{
+  display:none;
+}
 
 /* Style the navigation menu */
 
