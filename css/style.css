@@ -22,16 +22,22 @@ html {
 
 .header {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Francois One', sans-serif;
+  padding: 10px;
 }
 
 #research main{
   font-family: helvetica;
 }
 
+#research #main{
+  padding: 30px;
+}
+
 #research .page_name {
   text-align: center;
+  font-size: 35px;
 }
 
 #research .nav2 {
@@ -41,6 +47,29 @@ html {
 
 #research .nav2 li {
   display: inline-block;
+}
+
+#research img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#research h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+#research h3{
+  font-size: 16px;
+}
+
+#research .inside_list{
+  padding-left: 30px;
+}
+
+#research #main{
+  line-height: 1.4em;
 }
 
 #teaching {
@@ -69,6 +98,8 @@ html {
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
+
 
 
 /* Style the navigation menu */
@@ -106,9 +137,12 @@ html {
   position: absolute;
   right: 0;
   top: 0;
+
 }
 
-
+.topnav .active{
+  padding: 15px;
+}
 /* Add a grey background color on mouse-over */
 
 .topnav a:hover {
@@ -129,12 +163,15 @@ html {
   color: white;
   height: auto;
   padding: 10px;
+
 }
 
 .fa-icon:hover{
   opacity: 0.7;
   cursor: pointer;
 }
+
+
 
 
 
