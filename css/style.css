@@ -29,9 +29,27 @@ html {
   color:#374353;
 }
 
+#professional main{
+  font-family: helvetica;
+  background-color:#374353;
+}
+
+#professional #main{
+  padding: 30px;
+  color: white;
+}
+
+#professional .page_name {
+  text-align: center;
+  font-size: 35px;
+  /*color: #374353;*/
+  color: white;
+  
+  
+}
+
 #research main{
   font-family: helvetica;
-  /*background-color: #faebd7;*/
   background-color:#374353;
 }
 
