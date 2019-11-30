@@ -13,6 +13,7 @@ html {
   z-index: 1;
 }
 
+
 .skip a:focus {
   position: static;
   width: auto;
@@ -213,7 +214,7 @@ body {
       outline:none;
 }
 
-.container {
+#fun .container {
 
     display: block;       
     min-width:70%; 
