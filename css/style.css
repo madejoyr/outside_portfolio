@@ -83,7 +83,7 @@ html {
 #research h3{
   font-size: 16px;
   /*color: #0CA587;*/
-  color: #25BEA0;
+  color: #92E8D5;
 }
 
 #research .inside_list{
@@ -190,7 +190,7 @@ html {
 /* Style the active link (or home/logo) */
 
 .active {
-  background-color: #25BEA0;
+  background-color: #92E8D5;
   color: white;
 }
 
