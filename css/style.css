@@ -29,6 +29,87 @@ html {
   color:#374353;
 }
 
+
+
+/*--------NAVIGATION--------*/
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  color: white;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/*hide research and teaching pages*/
+#r{
+  display: none;
+}
+#t{
+  display:none;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #374353;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav .active{
+  padding: 15px;
+  color: #374353;
+  font-weight: bold;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a{
+  background-color:#374353;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #374353;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #92E8D5;
+  color: white;
+}
+
+.fa-icon {
+  text-decoration: none;
+  color: white;
+  height: auto;
+  padding: 10px;
+}
+
+.fa-icon:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+
+/*--------PROFESSIONAL PAGE--------*/
+
 #professional main{
   font-family: helvetica;
   background-color:#374353;
@@ -37,10 +118,6 @@ html {
 #professional #main{
   padding: 30px;
   color: white;
-}
-
-#professional a{
-  color: #FABC09;
 }
 
 #professional .button {
@@ -59,6 +136,7 @@ html {
 #professional .page_links{
   align-self: center;
   justify-self: center;
+  color: #FABC09;
 }
 
 #professional .page_name {
@@ -69,6 +147,9 @@ html {
   
   
 }
+
+
+/*--------RESEARCH PAGE--------*/
 
 #research main{
   font-family: helvetica;
@@ -112,15 +193,12 @@ html {
 
 #research h2{
   font-size: 30px;
-  /*text-align: center;*/
-  /*color: #374353;*/
   color: white;
   font-style: italic;
 }
 
 #research h3{
   font-size: 16px;
-  /*color: #0CA587;*/
   color: #92E8D5;
 }
 
@@ -133,9 +211,11 @@ html {
 }
 
 #research #main a{
-  /*color: #E1A300;*/
   color: #FABC09;
 }
+
+
+/*--------TEACHING PAGE--------*/
 
 #teaching {
   padding: 50px;
@@ -165,105 +245,12 @@ html {
 }
 
 
-#r{
-  display: none;
-}
-
-#t{
-  display:none;
-}
-
-/* Style the navigation menu */
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
 
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-
-.topnav #myLinks {
-  display: none;
-}
-
-
-/* Style navigation menu links */
-
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-
-/* Style the hamburger menu */
-
-.topnav a.icon {
-  background: #374353;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-
-}
-
-.topnav .active{
-  padding: 15px;
-  color: #374353;
-  font-weight: bold;
- /* size: 20px;*/
-}
-/* Add a grey background color on mouse-over */
-
-.topnav a{
-  background-color:#374353;
-}
-
-.topnav a:hover {
-  background-color: white;
-  color: #374353;
-  /*font-weight: bold;*/
-}
-
-
-
-/* Style the active link (or home/logo) */
-
-.active {
-  background-color: #92E8D5;
-  color: white;
-}
-
-.fa-icon {
-  text-decoration: none;
-  color: white;
-  height: auto;
-  padding: 10px;
-
-}
-
-.fa-icon:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-
-
-
-
-/* fun page */
-
+/*--------FUN PAGE--------*/
 
 #fun body {
   background-color: white;
-
-
-
-
 }
 
 /*tab container*/
