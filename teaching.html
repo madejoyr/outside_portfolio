@@ -8,6 +8,8 @@
     <title>Teaching</title>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
             function myFunction() {
               var x = document.getElementById("myLinks");
@@ -25,11 +27,12 @@
     <div class="container">
             <main>
             <header>
+                <div class="header">Laura K. Alford</div>
                 <nav>
                     <!-- Top Navigation Menu -->
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                     <div class="topnav">
-                    <a href="#home" class="active">Logo</a>
+                        <div class="active">Professional</div>
                     <!-- Navigation links (hidden by default) -->
                     <div id="myLinks">
                         <a href="index.html">About</a>
@@ -48,15 +51,19 @@
             
                    <h1 class='page_name'>Teaching</h1>
                    <ul class='nav2'>
-                       <li>engr 100</li>
-                       <li>engr 101</li>
-                       <li>neec</li>
+                       <li><a href='#engr_100'>engr 100</a></li>
+                       <li>|</li>
+                       <li><a href='#engr_101'>engr 101</a></li>
+                       <li>|</li>
+                       <li><a href='#neec'>neec</a></li>
                    </ul>
         
                    <div id= 'main'>
                        <div class = 'engr_100'>
+                        <a id='engr_100'>
                           <img src='images/engr100.png' alt='photo of my engineering 100 students testing their ROVs' class='engr-100-img'/>
                           <h2 class='subheader'>Engr 100</h2>
+                        </a>
                           <br>
                           <p>
                                 This is an intensive first-year course for engineering students that covers engineering design and technical communication.  
@@ -76,8 +83,10 @@
                             </p>
                         </div>
                         <div class = 'engr_101'>
+                            <a id='engr_101'>
                                 <img src='images/engr101.png' alt='an engineering 101 demonstration of how iostream works in C++' class='engr-101-img'/>
                                 <h2 class='subheader'>Engr 101</h2>
+                            </a>
                                 <br>
                                 <p>
                                     Okay, so this is another course that first-year engineering students are required to take.  But this one is run a 
@@ -96,7 +105,9 @@
                                   </br>
                         </div>
                         <div class = 'neec'>
+                            <a id='neec'>
                                 <h2 class='subheader'>Hydrostatics Short Course, Naval Engineering Education Center (NEEC)</h2>
+                            </a>
                                 <br>
                                 <p>
                                     I created a series of short video lectures on basic hydrostatics concepts for the Naval Engineering Education Center (NEEC).  
