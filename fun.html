@@ -11,7 +11,50 @@
 </head>
 
 
-<body id ='fun'>
+<body>
+ <script>
+      function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+       x.style.display = "none";
+      } else {
+      x.style.display = "block";
+      }
+    }
+  </script>
+
+</head>
+
+<body id = 'fun'>
+  <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <!-- <div class="container"> -->
+    <main>
+      <header>
+        <div class="header">Laura K. Alford</div>
+        <nav>
+      <!-- Top Navigation Menu -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav">
+          <div class="active">Fun</div>
+    <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="index.html">About</a>
+              <a href="professional.html" id='prof'>Professional</a>
+              <a href="research.html" id='r'>Research</a>
+              <a href="teaching.html" id='t'>Teaching</a>
+              <a href="fun.html">Fun</a>
+              <a href="contact.html">Contact</a>
+            </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        </nav>
+
+      </header>
+
+
 
 	<ul id="tabs">
 
@@ -27,8 +70,8 @@
       <!-- Full-width images with number and caption text -->
       <div class="mySlides">
         <div class="numbertext">1 / 20</div>
-        <img src="images/funimages/nofucks.jpg" style="width:100%" alt="no fucks song"/>
-        <div class="text"><a href="https://youtu.be/Vqbk9cDX0l0">My new theme song: I've no fucks left to give</a></div>
+        <img src="images/funimages/themesong.jpg" style="width:100%" alt="no fucks song"/>
+        <div class="text"><a href="https://youtu.be/Vqbk9cDX0l0">My new theme song: I've no f*cks left to give</a></div>
       </div>
 
       <div class="mySlides">
@@ -144,29 +187,186 @@
        <img src="images/funimages/chicken.jpg" style="width:100%" alt="chicken thighs"/>
         <div class="text"><a href="http://deadspin.com/how-to-barbecue-chicken-thighs-a-guide-for-people-who-5939738">How to Barbecue Chicken Thighs: A Guide for People Who Aren't Assholes</a></div>
 
-    </div>   
-      
-
-
+    </div>  
     <div>
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
+  </div> 
+  </div>  
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
-      <span class="dot" onclick="currentSlide(9)"></span>
-    </div> 
+<div class="container" id="tab2C">
+         
+
+  <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides2">
+        <div class="numbertext">1 / 25</div>
+        <img src="images/gdimages/pockets.jpg" style="width:100%" alt="women's pockets"/>
+        <div class="text"><a href="https://pudding.cool/2018/08/pockets/">Women's Pockets are Inferior (an excellent example of visualization and communication)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">2 / 25</div>
+        <img src="images/gdimages/milen.jpg" style="width:100%" alt="millennials burnout"/>
+        <div class="text"><a href="https://www.buzzfeednews.com/article/annehelenpetersen/millennials-burnout-generation-debt-work?utm_term=.riaJL28g2V#.riaJL28g2V">How Millennials Became the Burnout Generation</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">3 / 25</div>
+        <img src="images/gdimages/inclusion.jpg" style="width:100%" alt="inclusion starts with i"/>
+        <div class="text"><a href="https://www.youtube.com/watch?v=2g88Ju6nkcg&feature=youtu.be">Inclusion Starts With I</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">4 / 25</div>
+        <img src="images/gdimages/immaculate.jpg" style="width:100%" alt="immaculate perception"/>
+        <div class="text"><a href="https://www.youtube.com/watch?v=9VGbwNI6Ssk">Immaculate perception: Jerry Kang at TEDxSanDiego 2013</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">5 / 25</div>
+        <img src="images/gdimages/polygons.jpg" style="width:100%" alt="parable of the polygons"/>
+        <div class="text"><a href="https://ncase.me/polygons/">Parable of the Polygons (playable simulation that shows how small bias can have a HUGE impact!)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">6 / 25</div>
+        <img src="images/gdimages/period.jpg" style="width:100%" alt="period in 2 mins"/>
+        <div class="text"><a href="https://www.youtube.com/watch?v=WOi2Bwvp6hw">What Happens When You're on Your Period (seriously awesome: *I* didn't know half this stuff!)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">7 / 25</div>
+        <img src="images/gdimages/cast.jpg" style="width:100%" alt="cast calculus"/>
+        <div class="text"><a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CastCalculus">Cast Calculus</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">8 / 25</div>
+        <img src="images/gdimages/mindsash.jpg" style="width:100%" alt="minds turned to ash"/>
+        <div class="text"><a href="https://www.1843magazine.com/features/minds-turned-to-ash">Minds Turned to Ash (thoughts on burnout)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">9 / 25</div>
+       <img src="images/gdimages/ethical.jpg" style="width:100%" alt="ten principles"/>
+        <div class="text"><a href="http://cimsec.org/ten-principles-of-ethical-conduct/26552">Ten Principles of Ethical Conduct (examples are DoD-focused, but the principles themselves are general)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">10 / 25</div>
+       <img src="images/gdimages/stem.jpg" style="width:100%" alt="stem majors"/>
+        <div class="text"><a href="https://www.washingtonpost.com/posteverything/wp/2015/02/18/we-dont-need-more-stem-majors-we-need-more-stem-majors-with-liberal-arts-training/">We don’t need more STEM majors. We need more STEM majors with liberal arts training.</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">11 / 25</div>
+       <img src="images/gdimages/pontiac.jpg" style="width:100%" alt="pontiac aztec debacle"/>
+        <div class="text"><a href="https://www.roadandtrack.com/car-culture/a6357/bob-lutz-tells-the-inside-story-of-the-pontiac-aztek-debacle/">How Bad Cars Happen: The Pontiac Aztek debacle</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">12 / 25</div>
+       <img src="images/gdimages/pontiacbb.jpg" style="width:100%" alt="pontiac aztec popularity"/>
+        <div class="text"><a href="https://www.digitaltrends.com/cars/pontiac-aztek-breaking-bad-popularity-news-rumors/">(and why the Aztek sorta made a comeback)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">13 / 25</div>
+       <img src="images/gdimages/oneoftheguys.jpg" style="width:100%" alt="you are the cheater"/>
+        <div class="text"><a href="https://www.buzzfeed.com/jayasaxena/one-of-the-guys?utm_term=.laOW7JWlnL#.pnJ5NO5eDB">Being “One Of The Guys” Was Great, Until It Wasn’t (this was totally me; it's a great read, but I especially recommend reading it if you are a woman in a field that has historically been dominated by men)</a></div>
+      </div> 
+
+       <div class="mySlides2">
+        <div class="numbertext">14 / 25</div>
+       <img src="images/gdimages/24hours.jpg" style="width:100%" alt="24 hours"/>
+        <div class="text"><a href="http://www.stilldrinking.org/24-hours-of-privilege">24 Hours of Privilege</a></div>
+      </div> 
+
+      <div class="mySlides2">
+        <div class="numbertext">15 / 25</div>
+       <img src="images/gdimages/soulmate.jpg" style="width:100%" alt="soulmate"/>
+        <div class="text"><a href="https://www.buzzfeed.com/matwhitehead/i-swear-we-arent-dating?utm_term=.dxD6q3JyB#.tuYjZGgYD">22 Things You Know If You Have A Non-Romantic Soulmate (because men and women CAN be friends -- even BFFs!)</a></div>
+      </div> 
+
+       <div class="mySlides2">
+        <div class="numbertext">16 / 25</div>
+       <img src="images/gdimages/americanmind.jpg" style="width:100%" alt="american mind"/>
+        <div class="text"><a href="https://www.theatlantic.com/magazine/archive/2015/09/the-coddling-of-the-american-mind/399356/">The Coddling of the American Mind (and what you can do about how yours works so you enjoy life!)</a></div>
+      </div> 
+
+      <div class="mySlides2">
+        <div class="numbertext">17 / 25</div>
+       <img src="images/gdimages/femaleengin.jpg" style="width:100%" alt="female engineers"/>
+        <div class="text"><a href="https://www.huffpost.com/entry/are-women-too-empathetic-_b_5522153?guccounter=1">Are Women Too Empathetic to Be Engineers? (the answer is NO, by the way...)</a></div>
+      </div> 
+
+      <div class="mySlides2">
+        <div class="numbertext">18 / 25</div>
+       <img src="images/gdimages/toddler.jpg" style="width:100%" alt="toddler"/>
+        <div class="text"><a href="http://www.huffingtonpost.com/honest-toddler/how-to-put-a-toddler-to-bed-in-100-easy-steps_b_4968226.html">How to Put a Toddler to Bed in 100 Easy Steps</a></div>
+      </div> 
+
+      <div class="mySlides2">
+        <div class="numbertext">19 / 25</div>
+       <img src="images/gdimages/rtfm.jpg" style="width:100%" alt="rtfm"/>
+        <div class="text"><a href="https://opensource.com/business/15/5/write-better-docs">RTFM? How to write a manual worth reading</a></div>
+      </div> 
+
+       <div class="mySlides2">
+        <div class="numbertext">20 / 25</div>
+       <img src="images/gdimages/rockstar.jpg" style="width:100%" alt="rockstar"/>
+        <div class="text"><a href="https://www.buzzfeed.com/reggieugwu/collaborate-like-a-rockstar">13 Tips To Collaborate Like A Rockstar</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">21 / 25</div>
+       <img src="images/gdimages/diversity.jpg" style="width:100%" alt="diversity"/>
+        <div class="text"><a href="https://medium.com/this-is-hard/the-other-side-of-diversity-1bb3de2f053e">The Other Side of Diversity</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">22 / 25</div>
+       <img src="images/gdimages/womendress.jpg" style="width:100%" alt="women dress"/>
+        <div class="text"><a href="https://www.buzzfeed.com/juliegerstein/how-are-women-supposed-to-dress-for-work#42mp6rk">How Are Women Supposed To Dress For Work? (Roundtable discussion -- food for thought for everyone)</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">23 / 25</div>
+       <img src="images/gdimages/book.jpg" style="width:100%" alt="books"/>
+        <div class="text"><a href="https://heathbrothers.com/books/made-to-stick/">Made to Stick: Why some ideas survive and others die</a></div>
+      </div>
+
+      <div class="mySlides2">
+        <div class="numbertext">24 / 25</div>
+       <img src="images/gdimages/danger.jpg" style="width:100%" alt="dancer"/>
+        <div class="text"><a href="https://www.ted.com/talks/chimamanda_ngozi_adichie_the_danger_of_a_single_story">The Danger of a Single Story (TED talk)</a></div>
+      </div>
+
+
+      <div class="mySlides2">
+        <div class="numbertext">25 / 25</div>
+       <img src="images/gdimages/stressfriend.jpg" style="width:100%" alt="make stress your friend"/>
+        <div class="text"><a href="https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend">How to Make Stress Your Friend (TED talk)</a></div>
+      </div>
+
+
+        <div>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+  </div>      
+
+</div> 
+
+      
+
+ 
+
 
     <script>
       var slideIndex = 1;
@@ -185,22 +385,51 @@
       function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
+        
         slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        
       } 
 
     </script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    <script>
+      var slideIndex = 1;
+      showSlides2(slideIndex);
+
+      // Next/previous controls
+      function plusSlides2(n) {
+        showSlides2(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide2(n) {
+        showSlides2(slideIndex = n);
+      }
+
+      function showSlides2(n) {
+        var i;
+        var slides2 = document.getElementsByClassName("mySlides2");
+        if (n > slides2.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides2.length}
+        for (i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";
+        }
+        
+        slides2[slideIndex-1].style.display = "block";
+        
+      } 
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+
+    <script>
+      
     $(document).ready(function() {    
 
 		$('#tabs li a:not(:first)').addClass('inactive');
@@ -209,13 +438,17 @@
 		    
 		$('#tabs li a').click(function(){
 		    var t = $(this).attr('id');
-			  if($(this).hasClass('inactive')){ //this is the start of our condition 
+			  if($(this).hasClass('inactive')){ 
+          //this is the start of our condition 
 			    $('#tabs li a').addClass('inactive');           
 			    $(this).removeClass('inactive');
 			    
 			    $('.container').hide();
 			    $('#'+ t + 'C').fadeIn('slow');
+          console.log("worked");
 			 }
+
+      
 		});
 
 	});
