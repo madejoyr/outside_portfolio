@@ -217,11 +217,25 @@ html {
 
 /*--------TEACHING PAGE--------*/
 
-#teaching {
-  padding: 50px;
+#teaching main {
+  font-family: helvetica;
+  background-color:#374353;
+}
+
+#teaching #main{
+  color: white;
+  padding: 30px;
+  line-height: 1.4em;
+}
+
+#teaching #main a{
+  color: #FABC09;
 }
 
 #teaching .page_name {
+  color: white;
+  font-size: 35px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -230,16 +244,33 @@ html {
   text-align: center;
 }
 
+#teaching .nav2 a{
+  color: #FABC09;
+}
+
 #teaching .nav2 li {
   display: inline-block;
+  color: white;
+}
+
+#teaching h2{
+  font-size: 35px;
+  color: white;
+  font-style: italic;
 }
 
 #teaching .engr-100-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 #teaching .engr-101-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 20px;
   padding-top: 20px;
 }
