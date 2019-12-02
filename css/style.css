@@ -280,13 +280,11 @@ html {
 
 /*--------FUN PAGE--------*/
 
-#fun body {
-  background-color: white;
-}
+
 
 /*tab container*/
 
-#tabs {
+#fun #tabs {
 
    width: 100%;
     height:30px; 
@@ -298,7 +296,7 @@ html {
 }
 
 
-#tabs li {
+#fun #tabs li {
     float:left; 
     list-style:none; 
     border-top:1px solid #ccc; 
@@ -311,9 +309,9 @@ html {
     background-color: black;
 }
 
-#tabs li a {
+#fun #tabs li a {
 
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family: helvetica, sans-serif; 
     font-size: small;
     font-weight: bold; 
     color: #504f54;
@@ -322,7 +320,7 @@ html {
     padding-right: 7px;
     padding-bottom: 8px; 
     display:block; 
-    background: lightgrey;
+    background: #92E8D5;
     border-top-left-radius:3px; 
     border-top-right-radius:3px; 
     text-decoration:none;
@@ -330,7 +328,7 @@ html {
   
 }
 
-#tabs li a.inactive{
+#fun #tabs li a.inactive{
     padding-top:5px;
     padding-bottom:8px;
     padding-left: 8px;
@@ -342,7 +340,7 @@ html {
 
 }
 
-#tabs li a:hover, #tabs li a.inactive:hover {
+#fun #tabs li a:hover, #tabs li a.inactive:hover {
 
 
     color: #5685bc;
@@ -358,18 +356,11 @@ html {
     border-bottom-left-radius: 25px;
     text-align:left;
     padding: 40px;
-    background-color: #faebd7;
+    background-color: #fabc09;
 
 
 }
 
-/*.container h2 { margin-left: 15px;  margin-right: 15px;  margin-bottom: 10px; color: #5685bc; }
-
-.container p { margin-left: 15px; margin-right: 15px;  margin-top: 10px; margin-bottom: 10px; line-height: 1.3; font-size: small; }
-
-.container ul { margin-left: 25px; font-size: small; line-height: 1.4; list-style-type: disc; }
-
-.container li { padding-bottom: 5px; margin-left: 5px;}*/
 
 
 
@@ -377,7 +368,7 @@ html {
 
 
 /* Slideshow container */
-.slideshow-container {
+#fun .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -386,7 +377,7 @@ html {
 }
 
 /* Hide the images by default */
-.mySlides {
+#fun .mySlides {
   display: none;
   max-height: 400px;
   max-width: 800px;
@@ -394,13 +385,27 @@ html {
 
 }
 
-.mySlides img {
+#fun .mySlides img {
   max-height: 150px;
 
 }
 
+#fun .mySlides2 {
+  display: none;
+  max-height: 400px;
+  max-width: 800px;
+  margin: auto;
+
+}
+
+#fun .mySlides2 img {
+  max-height: 150px;
+
+}
+
+
 /* Next & previous buttons */
-.prev, .next {
+#fun .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -413,32 +418,35 @@ html {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  
 }
+
+
 
 /* Position the "next button" to the right */
-.next {
+#fun .next {
   right: -30px;
-  border-radius: 3px 0 0 3px;
+  
 }
 
-.prev {
+#fun .prev {
   left: -30px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+#fun .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
-.text {
-  font-family: "Abril Fatface", cursive;
+#fun .text {
+  font-family: helvetica, cursive;
   color: #90ee90;
   font-size: 11px;
   font-weight: bold;
   padding: 8px 12px;
   position: absolute;
-  bottom: -25px;
+  bottom: -40px;
   width: 100%;
   /*text-align: center;*/
   
@@ -446,7 +454,7 @@ html {
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+#fun .numbertext {
   color: white;
   font-size: 12px;
   padding: 8px 12px;
@@ -456,27 +464,13 @@ html {
 
 }
 
-/*
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 
-.active, .dot:hover {
-  background-color: #717171;
-}*/
 
 /* Fading animation */
-.fade {
+#fun .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
-  animation-name: fade;
+  animation-nameƒ: fade;
   animation-duration: 1.5s;
 }
 
@@ -490,8 +484,74 @@ html {
   to {opacity: 1}
 }
 
+@media screen and (min-width: 800px) {
+
+  #fun .container {
+
+    min-height: 250px;
+  }
+
+  #fun .slideshow-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+  }
+
+  #fun .mySlides {
+
+    grid-column: 2 / span 1;
+
+  }
+
+  #fun .mySlides img {
+    max-height: 200px;
+    min-width: 400px;
+
+}
+
+  #fun .mySlides2 {
+
+    grid-column: 2 / span 1;
+
+  }
+
+  #fun .mySlides2 img {
+    max-height: 200px;
+    min-width: 400px;
+
+}
 
 
+
+  #fun .text {
+
+    grid-column: 2 / span 1;
+    bottom: -50px;
+    
+
+
+  }
+
+  #fun .next {
+    right: 100px;
+  
+}
+
+  #fun .prev {
+    left: 100px;
+}
+
+  #fun .prev, .next {
+    
+    font-size: 30px;
+    
+  
+}
+
+
+
+
+}
 
 @media screen and (prefers-reduced-motion: reduce) {
   .skip a {
