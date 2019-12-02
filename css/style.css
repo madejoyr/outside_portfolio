@@ -27,9 +27,13 @@ html {
   padding: 10px;
   background-color: #FABC09;
   color:#374353;
+  text-decoration: none;
 }
 
-
+.header a{
+  text-decoration: none;
+  color:#374353;
+}
 
 /*--------NAVIGATION--------*/
 
