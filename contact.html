@@ -5,11 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Research</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    	function myFunction() {
+  		var x = document.getElementById("myLinks");
+  		if (x.style.display === "block") {
+   		 x.style.display = "none";
+  		} else {
+    	x.style.display = "block";
+  		}
+  	}
+
+
+	</script>
+
 </head>
 
-<body>
+<body id='contact'>
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+	<main>
+		<header>
+    		<div class="header">Laura K. Alford</div>
+    		<nav>
+			<!-- Top Navigation Menu -->
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<div class="topnav">
+ 		 			<div class="active">Contact</div>
+ 		<!-- Navigation links (hidden by default) -->
+  					<div id="myLinks">
+    					<a href="index.html">About</a>
+   						<a href="professional.html" id='prof'>Professional</a>
+   						<a href="research.html" id='r'>Research</a>
+   						<a href="teaching.html" id='t'>Teaching</a>
+    					<a href="fun.html">Fun</a>
+    					<a href="contact.html">Contact</a>
+  					</div>
+  			<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    					<i class="fa fa-bars"></i>
+  					</a>
+				</div>
+    		</nav>
 
+    	</header>
+
+    	<div id ='main'>
+
+    	<br><h1 class='page_name'>Contact</h1><br>
+    	<br><br>
+
+		<form class="contact-form" action='https://formspree.io/xkngbpjl' method="post">
+		    <fieldset>
+		        <legend class="text-center header">Your Contact Information:</legend>
+		        <br><br>
+		        <div class="form-group">
+		            <!-- <span><i class="fa fa-user bigicon"></i></span> -->
+		            <div>
+		              <label for="fname"><span><i class="fa fa-user bigicon"></i></span> First Name:</label>
+		                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+		            </div>
+		        </div>
+		        <div class="form-group">
+		            <div>
+		              <label for="lname"><span><i class="fa fa-user bigicon"></i></span> Last Name:</label>
+		                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+		            </div>
+		        </div>
+
+		        <div class="form-group">
+		            
+		            <div>
+		              <label for="email"><span><i class="fa fa-paper-plane bigicon"></i></span> Email Address:</label>
+		                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+		            </div>
+		        </div>
+
+		        <div class="form-group">
+		            
+		            <div>
+		              <label for="phone"><span><i class="fa fa-phone-square bigicon"></i></span> Phone Number:</label>
+		                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+		            </div>
+		        </div>
+			        <div class="form-group">
+		            
+		            <div>
+		              <label for="message"><span><i class = "fas fa-pencil-alt bigicon"></i></span> Message:</label>
+		                <br><textarea class="form-control" id="message" name="message" placeholder="Enter your message here."></textarea><br>
+		            </div>
+		        </div>
+		<br>
+		        <div class="form-group">
+		            <div>
+		                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+		            </div>
+		        </div>
+		        <br>
+		    </fieldset>
+
+		</form>
+	</div>
+
+    <footer>
+    </footer>
+
+	</main>
 </body>
 
 </html>

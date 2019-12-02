@@ -107,6 +107,39 @@ html {
 }
 
 
+/*--------CONTACT PAGE--------*/
+#contact main{
+  font-family: helvetica;
+  background-color:#374353;
+}
+
+#contact .page_name {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+#contact .contact-form{
+  padding:15px;
+  line-height: 2em;
+}
+
+#contact #main{
+  padding: 15px;
+  color: white;
+}
+
+#contact .text-center{
+  font-size: 25px;
+  color: #374353;
+  font-style: italic;
+}
+
+#contact button[type = 'submit']{
+  background-color: #92E8D5;
+
+}
+
 
 /*--------PROFESSIONAL PAGE--------*/
 
@@ -142,7 +175,6 @@ html {
 #professional .page_name {
   text-align: center;
   font-size: 35px;
-  /*color: #374353;*/
   color: white;
   
   
@@ -164,7 +196,6 @@ html {
 #research .page_name {
   text-align: center;
   font-size: 35px;
-  /*color: #374353;*/
   color: white;  
 }
 
@@ -176,7 +207,6 @@ html {
 
 #research .nav2 li {
   display: inline-block;
-  /*color: #374353;*/
   color: white;
 }
 
