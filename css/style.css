@@ -190,12 +190,11 @@
                                                                             #contact button[type='submit'] {
                                                                                 background-color: #92E8D5;
                                                                             }
-
-                                                                            #contact #message{
+                                                                            
+                                                                            #contact #message {
                                                                                 width: 50%;
                                                                                 height: 100px;
                                                                             }
-                                                        
                                                                             /*--------PROFESSIONAL PAGE--------*/
                                                                             
                                                                             #professional main {
@@ -652,5 +651,3 @@
                                                                                     scroll-behavior: auto;
                                                                                 }
                                                                             }
-                                                                            
-                                                                            ;
