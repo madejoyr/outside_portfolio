@@ -45,6 +45,7 @@
                                                                                 overflow: hidden;
                                                                                 background-color: #333;
                                                                                 position: relative;
+                                                                                font-family: helvetica, sans-serif;
                                                                             }
                                                                             /* Hide the links inside the navigation menu (except for logo/home) */
                                                                             
@@ -427,6 +428,8 @@
                                                                                 text-align: left;
                                                                                 padding: 40px;
                                                                                 background-color: #fabc09;
+                                                                                /* adding margin at bottom to push footer down */
+                                                                                margin-bottom: 10%;
                                                                             }
                                                                             /* Slideshow container */
                                                                             
@@ -435,6 +438,8 @@
                                                                                 position: relative;
                                                                                 margin: auto;
                                                                                 opacity: 1;
+                                                                                /* adding margin at bottom to push footer down */
+                                                                                margin-bottom: 10%;
                                                                             }
                                                                             /* Hide the images by default */
                                                                             
