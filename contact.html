@@ -11,109 +11,115 @@
     <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-    	function myFunction() {
-  		var x = document.getElementById("myLinks");
-  		if (x.style.display === "block") {
-   		 x.style.display = "none";
-  		} else {
-    	x.style.display = "block";
-  		}
-  	}
-
-
-	</script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </head>
 
 <body id='contact'>
-	<div class="skip"><a href="#main">Skip to Main Content</a></div>
-	<main>
-		<header>
-    		<div class="header"><a href='index.html'>Laura K. Alford</a></div>
-    		<nav>
-			<!-- Top Navigation Menu -->
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-				<div class="topnav">
- 		 			<div class="active">Contact</div>
- 		<!-- Navigation links (hidden by default) -->
-  					<div id="myLinks">
-    					<a href="index.html">About</a>
-   						<a href="professional.html" id='prof'>Professional</a>
-   						<a href="research.html" id='r'>Research</a>
-   						<a href="teaching.html" id='t'>Teaching</a>
-    					<a href="fun.html">Fun</a>
-    					<a href="contact.html">Contact</a>
-  					</div>
-  			<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    					<i class="fa fa-bars"></i>
-  					</a>
-				</div>
-    		</nav>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <main>
+        <header>
+            <div class="header"><a href='index.html'>Laura K. Alford</a></div>
+            <nav>
+                <!-- Top Navigation Menu -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <div class="topnav">
+                    <div class="active">Contact</div>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <a href="index.html">About</a>
+                        <a href="professional.html" id='prof'>Professional</a>
+                        <a href="research.html" id='r'>Research</a>
+                        <a href="teaching.html" id='t'>Teaching</a>
+                        <a href="fun.html">Fun</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
 
-    	</header>
+        </header>
 
-    	<div id ='main'>
+        <div id='main'>
 
-    	<br><h1 class='page_name'>Contact</h1><br>
-    	<br><br>
+            <br>
+            <h1 class='page_name'>Contact</h1><br>
+            <br><br>
 
-		<form class="contact-form" action='https://formspree.io/xkngbpjl' method="post">
-		    <fieldset>
-		        <legend class="text-center header">Your Contact Information:</legend>
-		        <br><br>
-		        <div class="form-group">
-		            <!-- <span><i class="fa fa-user bigicon"></i></span> -->
-		            <div>
-		              <label for="fname"><span><i class="fa fa-user bigicon"></i></span> First Name:</label>
-		                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-		            </div>
-		        </div>
-		        <div class="form-group">
-		            <div>
-		              <label for="lname"><span><i class="fa fa-user bigicon"></i></span> Last Name:</label>
-		                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-		            </div>
-		        </div>
+            <form class="contact-form" action='https://formspree.io/xkngbpjl' method="post">
+                <fieldset>
+                    <legend class="text-center header">Your Contact Information:</legend>
+                    <br><br>
+                    <div class="form-group">
+                        <!-- <span><i class="fa fa-user bigicon"></i></span> -->
+                        <div>
+                            <label for="fname"><span><i class="fa fa-user bigicon"></i></span> First Name:</label>
+                            <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <label for="lname"><span><i class="fa fa-user bigicon"></i></span> Last Name:</label>
+                            <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                        </div>
+                    </div>
 
-		        <div class="form-group">
-		            
-		            <div>
-		              <label for="email"><span><i class="fa fa-paper-plane bigicon"></i></span> Email Address:</label>
-		                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-		            </div>
-		        </div>
+                    <div class="form-group">
 
-		        <div class="form-group">
-		            
-		            <div>
-		              <label for="phone"><span><i class="fa fa-phone-square bigicon"></i></span> Phone Number:</label>
-		                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-		            </div>
-		        </div>
-			        <div class="form-group">
-		            
-		            <div>
-		              <label for="message"><span><i class = "fas fa-pencil-alt bigicon"></i></span> Message:</label>
-		                <br><textarea class="form-control" id="message" name="message" placeholder="Enter your message here."></textarea><br>
-		            </div>
-		        </div>
-		<br>
-		        <div class="form-group">
-		            <div>
-		                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-		            </div>
-		        </div>
-		        <br>
-		    </fieldset>
+                        <div>
+                            <label for="email"><span><i class="fa fa-paper-plane bigicon"></i></span> Email Address:</label>
+                            <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                        </div>
+                    </div>
 
-		</form>
-	</div>
+                    <div class="form-group">
 
-    <footer>
-    </footer>
+                        <div>
+                            <label for="phone"><span><i class="fa fa-phone-square bigicon"></i></span> Phone Number:</label>
+                            <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
 
-	</main>
+                        <div>
+                            <label for="message"><span><i class = "fas fa-pencil-alt bigicon"></i></span> Message:</label>
+                            <br><textarea class="form-control" id="message" name="message" placeholder="Enter your message here."></textarea><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                    </div>
+                    <br>
+                </fieldset>
+
+            </form>
+        </div>
+
+        <footer>
+            <div id="logo-mobile"><img src="images/coe-name-logo.png" alt="NAME logo"></div>
+            <a href="https://twitter.com/LauraKAlford" target="_blank" class="fa-icon">
+                <img src="images/twitter-icon.png" alt="twitter icon">
+            </a>
+            <a href="https://www.linkedin.com/in/laura-k-alford-a7b4583b/" target="_blank" class="fa-icon">
+                <img src="images/linkedin-icon.png" alt="linkedin icon">
+            </a>
+        </footer>
+
+    </main>
 </body>
 
 </html>
