@@ -589,6 +589,16 @@
                                                                                     padding-left: 15%;
                                                                                     padding-right: 15%;
                                                                                 }
+                                                                                #fname,
+                                                                                #lname,
+                                                                                #email,
+                                                                                #phone {
+                                                                                    height: 18px;
+                                                                                }
+                                                                                #message {
+                                                                                    height: 30px;
+                                                                                    width: 150px;
+                                                                                }
                                                                                 /*--------FOOTER--------*/
                                                                                 footer {
                                                                                     display: flex;
@@ -635,3 +645,5 @@
                                                                                     scroll-behavior: auto;
                                                                                 }
                                                                             }
+                                                                            
+                                                                            ;
