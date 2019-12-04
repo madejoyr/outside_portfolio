@@ -35,7 +35,6 @@ html {
 }
 
 
-
 /*--------NAVIGATION--------*/
 
 
@@ -174,11 +173,11 @@ html {
     line-height: 1.4em;
 }
 
-#professional p a{
+#professional p a {
     color: #FABC09;
 }
 
-#professional h2{
+#professional h2 {
     font-size: 30px;
     color: white;
     font-style: italic;
@@ -210,7 +209,7 @@ html {
     text-align: center;
 }
 
-#professional .cv_link a{
+#professional .cv_link a {
     color: #FABC09;
 }
 
@@ -219,7 +218,6 @@ html {
     font-size: 35px;
     color: white;
 }
-
 
 
 /*--------RESEARCH PAGE--------*/
@@ -759,12 +757,18 @@ footer {
 
 /*--------ABOUT--------*/
 
-#about-me p {
+#about-me p,
+#about-me h1 {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
     font-size: 15px;
     line-height: 1.2;
+}
+
+#about-me h1 {
+    font-size: 20px;
+    text-align: center;
 }
 
 #main #about-me {
@@ -1275,6 +1279,9 @@ footer {
         padding-top: 20px;
     }
     /*--------ABOUT--------*/
+    #about-me h1 {
+        text-align: left;
+    }
     #main #about-me {
         display: flex;
         flex-direction: row;
