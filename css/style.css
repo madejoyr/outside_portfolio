@@ -170,6 +170,17 @@ html {
 #professional #main {
     padding: 30px;
     color: white;
+    line-height: 1.4em;
+}
+
+#professional p a{
+    color: #FABC09;
+}
+
+#professional h2{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
 }
 
 #professional .button {
@@ -194,8 +205,12 @@ html {
 #professional .cv_link {
     color: #92E8D5;
     text-decoration: none;
-    background-color: #92E8D5;
+    /* background-color: #92E8D5; */
     text-align: center;
+}
+
+#professional .cv_link a{
+    color: #FABC09;
 }
 
 #professional .page_name {
@@ -203,6 +218,7 @@ html {
     font-size: 35px;
     color: white;
 }
+
 
 
 /*--------RESEARCH PAGE--------*/
