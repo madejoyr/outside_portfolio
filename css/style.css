@@ -486,10 +486,12 @@ html {
 
 #fun .next {
     right: -30px;
+    background-color: #374353;
 }
 
 #fun .prev {
     left: -30px;
+    background-color: #374353;
 }
 
 
@@ -497,7 +499,8 @@ html {
 
 #fun .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    border: 1px white solid;
 }
 
 
