@@ -191,6 +191,13 @@ html {
     color: #FABC09;
 }
 
+#professional .cv_link {
+  color: #92E8D5;
+  text-decoration: none;
+  background-color: #92E8D5;
+}
+
+
 #professional .page_name {
     text-align: center;
     font-size: 35px;
