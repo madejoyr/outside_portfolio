@@ -192,11 +192,11 @@ html {
 }
 
 #professional .cv_link {
-  color: #92E8D5;
-  text-decoration: none;
-  background-color: #92E8D5;
+    color: #92E8D5;
+    text-decoration: none;
+    background-color: #92E8D5;
+    text-align: center;
 }
-
 
 #professional .page_name {
     text-align: center;
@@ -402,9 +402,9 @@ html {
 }
 
 #fun main {
-
     background-color: #374353;
 }
+
 
 /* Slideshow container */
 
@@ -506,9 +506,9 @@ html {
 }
 
 #fun .text a {
-
     color: #374353;
 }
+
 
 /* Fading animation */
 
