@@ -35,6 +35,7 @@ html {
 }
 
 
+
 /*--------NAVIGATION--------*/
 
 
@@ -347,6 +348,13 @@ html {
 
 
 /*--------FUN PAGE--------*/
+
+#fun .page_name {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: helvetica;
+}
 
 
 /*tab container*/
