@@ -401,6 +401,10 @@ html {
     background-color: #fabc09;
 }
 
+#fun main {
+
+    background-color: #374353;
+}
 
 /* Slideshow container */
 
@@ -501,6 +505,10 @@ html {
     background-color: rgba(0, 0, 0, .5);
 }
 
+#fun .text a {
+
+    color: #374353;
+}
 
 /* Fading animation */
 
@@ -554,6 +562,7 @@ html {
     #fun .text {
         grid-column: 2 / span 1;
         bottom: -50px;
+        font-size: 15px;
     }
     #fun .next {
         right: 100px;
